@@ -1,0 +1,24 @@
+.skills #cooking {
+    text-align: right;
+    font-size: 1.2em;
+    color: #29bab8;
+    width: 70%;
+    height: fit-content;
+    padding: 70px;
+    margin: 0 auto 0;
+}
+
+.skills #cooking h2 {
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.skills #cooking p {
+    margin: 0;
+    margin-top: 1px;
+    width: 80%;
+}
+
+.skills #cooking img {
+    float: right;
+}
