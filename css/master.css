@@ -1,160 +1,199 @@
-
 /*Generalised stylising*/
-	body {
-		background-color: #FBF8F1;
-		margin:  0;
-		text-align: center;
-		font-family:  Montserrat, serif;
-	}
 
-	hr {
-		:  inset;
-		height: 0;
-		border: 10px dotted grey;
-		width:  10%;
-		margin:  150px auto 150px;
-	    border-top: 0;
+body {
+    background-color: #FBF8F1;
+    margin: 0;
+    text-align: center;
+    font-family: Montserrat, serif;
+}
 
-	}
+hr {
+    border: inset;
+    height: 0;
+    border: 10px dotted grey;
+    width: 10%;
+    margin: 100px auto 100px;
+    border-top: 0;
+}
 
-	h1 {
-		font-size: 2.5em;
-		color: #3e8c8b;
+h1 {
+    font-size: 2.5em;
+    color: #3e8c8b;
+    margin: 0 auto 0;
+}
 
-		margin: 0 auto 0;
+h2 {
+    color: #1ab8b5;
+}
 
-	}
-
-	h2 {
-		color:  #1ab8b5;
-
-	}
 
 /*Stylising the first section of the landing page with the mountain images*/
 
-	.topcontainer {
-		background-color: #E4F9F5;
-		padding-top: 250px;
-		color: #3e8c8b;
-		font-size:  2.5em;
+.topcontainer {
+    background-color: #E4F9F5;
+    padding-top: 250px;
+    color: #3e8c8b;
+    font-size: 2.5em;
+    position: sticky;
+}
 
-		position:  sticky;
-	}
-	.topcontainer h1 {
-		font-family: Sacramento, cursive;
-		font-size:  2.5em;
-		width: 100%;
-	}
+.topcontainer h1 {
+    font-family: Sacramento, cursive;
+    font-size: 2.5em;
+    width: 100%;
+}
 
-	#clouda {
-		width:  10%;
-		position: absolute;
-		top:  150px;
-		right:  250px;
-		}
-	#cloudb {
-		width: 10%;
-		position: absolute;
-		top:  500px;
-		left:  250px;
-	}
+#clouda {
+    width: 10%;
+    position: absolute;
+    top: 150px;
+    right: 250px;
+}
 
-	.mount {
-		width:  50%;
-		margin:  0;
-	}
+#cloudb {
+    width: 10%;
+    position: absolute;
+    top: 500px;
+    left: 250px;
+}
 
-	.pro {
-		text-decoration: underline;
-	}
+.mount {
+    width: 50%;
+    margin: 0;
+}
+
+.pro {
+    text-decoration: underline;
+}
+
 
 /* Stylising the middle container with all the info */
 
-	.middlecontainer {
-		background-color: #FBF8F1;
-		padding:  50px;
+.middlecontainer {
+    background-color: #FBF8F1;
+    padding: 50px;
+}
 
 
-	}
-	/*Stylise profile*/
-		#profile_pic {
-			border-radius: 100%;
-			width:  15%;
-			height:  15%;
-		}
+/*Stylise profile*/
 
-		.profile {
-			font-family: Montserrat;
-			color: #29bab8;
-		}
+#profile_pic {
+    border-radius: 100%;
+    width: 15%;
+    height: 15%;
+}
 
-    /*Stylise skills*/
-	    .skills h1 {
-	    	margin-bottom:  50px;
-	    	text-align: center;
-	    }
-
-	    .skills img {
-	    	border-radius:  50%;
-	    	width: 15%;
-	    	height:  15%;
-	    	margin: 0 25px 0;
-	    }
-
-	    .skills {
-	    	text-align: center;
-	    	width:  70%;
-	    	margin:  0 auto 0;
-	    }
+.profile {
+    font-family: Montserrat;
+    color: #29bab8;
+    width: 80%;
+    margin: 0 auto 0;
+}
 
 
-	    .skills #programming{
-	    	text-align: right;
-	    	font-size:  1.2em;
-	    	color:  #29bab8;
-	    	width:  70%;
-	    	height:  fit-content;
-	    	padding:  70px;
-	    	margin:  0 auto 0;
-	    }
+/*Stylise skills*/
 
-	    .skills #programming h2{
-	    	margin:  0;
-	    	margin-bottom: 10px;
-	    }
+.skills h1 {
+    margin-bottom: 50px;
+    text-align: center;
+}
 
-	    .skills #programming p {
-	    	margin: 0;
-	    	margin-top: 1px;
-	    	width:  fit-content;
-	    }
-	    .skills #programming img {
-	    	float:  left;
-	    }
+.skills img {
+    position: relative;
+    bottom: 20px;
+    border-radius: 50%;
+    width: 20%;
+    height: 20%;
+    margin: 15px 25px 0;
+}
 
-	    .skills #cooking{
-	    	text-align: left;
-	    	font-size:  1.2em;
-	    	color:  #29bab8;
-	    	width:  70%;
-	    	height:  fit-content;
-	    	padding:  70px;
-	    	margin:  0 auto 0;
-	    }
+.skills {
+    text-align: center;
+    width: 70%;
+    margin: 0 auto 0;
+}
 
-	    .skills #cooking h2{
-	    	margin:  0;
-	    	margin-bottom: 10px;
-	    }
+.skills .programming {
+    text-align: right;
+    font-size: 1.2em;
+    color: #29bab8;
+    width: 70%;
+    height: fit-content;
+    padding: 70px;
+    margin: 0 auto 0;
+}
 
-	    .skills #cooking p {
-	    	margin: 0;
-	    	margin-top: 1px;
-	    	width:  fit-content;
+.skills .programming h2 {
+    margin: 0;
+    margin-bottom: 10px;
+}
 
-	    }
-	    .skills #cooking img {
-	    	float:  right;
-	    }
+.skills .programming p {
+    margin: 0;
+    margin-top: 1px;
+    width: fit-content;
+}
 
-	    
+.skills .programming img {
+    float: left;
+}
+
+.skills .cooking {
+    text-align: left;
+    font-size: 1.2em;
+    color: #29bab8;
+    width: 70%;
+    height: fit-content;
+    padding: 70px;
+    margin: 0 auto 0;
+}
+
+.skills .cooking h2 {
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.skills .cooking p {
+    margin: 0;
+    margin-top: 1px;
+    width: fit-content;
+}
+
+.skills .cooking img {
+    float: right;
+}
+
+
+/* Stylilising get in touch */
+
+.contact h3 {
+    width: 40%;
+    font-size: 1.5em;
+    margin: 50px auto 20px;
+}
+
+.btn {
+    background: #11CDD4;
+    background-image: linear-gradient(to bottom, #11CDD4, #11999E);
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.bottomcontainer {
+    background-color: #3e8c8b;
+    padding: 50px
+}
+
+.bottomcontainer a {
+    margin: 0 25px 0;
+    text-decoration: none;
+    color: white;
+}
+
+.bottomcontainer p {
+    margin: 50px auto 0;
+}
